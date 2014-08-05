@@ -2,7 +2,9 @@
   "name": "unphp-folder",
   "version": "0.1.0",
   "description": "A helper utility to step through a folder of obfuscated PHP and reveal it, using the awesome power of http://www.unphp.net/'s API",
-  "main": "decodePlugin.js",
+  "keywords": ["php", "unphp", "decrypt", "API"],
+  "bugs": "https://github.com/JodiWarren/unphp-folder/issues",
+  "main": "unphp-folder.js",
   "dependencies": {
     "cli-color": "^0.3.2",
     "restler": "^3.2.2",
@@ -10,9 +12,14 @@
     "wrench": "^1.5.8"
   },
   "devDependencies": {},
+  "bin" : "./unphp-folder.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jodi Warren <jodi@jodiwarren.com> (http://jodiwarren.com/)",
-  "license": "ISC"
+  "license": "GPL-2.0",
+  "repository" :  {
+    "type" : "git",
+    "url" : "https://github.com/JodiWarren/unphp-folder"
+  }
 }
